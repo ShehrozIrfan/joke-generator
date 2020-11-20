@@ -10,7 +10,7 @@ function showJokes(e) {
     //creating object of xhr
     const xhr = new XMLHttpRequest();
     //OPEN - at the end of url we add our inputted number using tick notation, the url is take from "http://www.icndb.com/api/"
-    xhr.open('GET',`http://api.icndb.com/jokes/random/${number}`,true);
+    xhr.open('GET',`https://api.icndb.com/jokes/random/${number}`,true);
     //onload
     xhr.onload = function() {
       //checking the status : 200 -okay.
